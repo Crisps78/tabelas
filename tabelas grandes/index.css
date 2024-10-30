@@ -1,0 +1,55 @@
+body {
+    background-color: black;
+}
+tbody > tr:nth-child(odd){
+    background-color: rgb(100, 123, 33);
+}
+table {
+    position: relative;
+    margin: auto;
+    width: 18em;
+    border-collapse: collapse;
+    font-size: 2rem;
+}
+
+caption {
+    background-color: bisque;
+    color: red;
+    padding: 0.5em;
+    font-size: 1em;
+}
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+thead > tr, th{
+    background-color: brown;
+    color: rgb(155, 155, 158);
+    position: sticky;
+    top: 0;
+    
+}
+.colp {
+    width: 3em;
+}
+td {
+    color: white;
+}
+td ,th {
+    border: 1px solid white;
+    padding: 20px;
+    
+}
+.num {
+    text-align: right;
+}
+
+tfoot th, td {
+    color: rgb(155, 155, 158);
+}
+tfoot {
+    background-color: brown;
+}
+p{
+    color: aliceblue;
+}

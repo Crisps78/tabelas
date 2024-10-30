@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+ h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+table {
+   margin: auto;
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.l1 {
+background-color: blue;
+}
+
+.l2 {
+    background-color: aquamarine;
+    
+}
+
+.l3 {
+    background-color: brown;
+}
+
+.l4 {
+    background-color: bisque;
+}
+
+.td2{
+    color: red;
+}
+
+.td4{
+    color: red;
+}
+

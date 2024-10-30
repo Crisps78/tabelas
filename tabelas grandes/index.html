@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tabelas grandes</title>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+       <!-- Hierarquia de tabelas (simples)
+            TABLE =tabela
+            TABLE ROW = linha de tabela = TR
+            TABLE HEADER = cebeçalho de tabela = TH
+            TABLE DATA = dado de tabela = TD
+    -->
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH 
+            TBODY
+                TR, TD ,TH    
+            TFOOT
+                TR, TD, TH    
+     -->
+                <table>
+                    <caption>População</caption>
+                    <thead>
+                        
+                        <tr>
+                            <th scope="col">Estado de São Paulo</th>
+                            <th scope="col" class="colp">População</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>São Paulo</td>
+                            <td class="num">45.919.049</td>
+                        </tr>
+
+                        <tr>
+                            <td>Rio de Janeiro</td>
+                            <td class="num">17.264.943</td>
+                        </tr>
+
+                        <tr>
+                            <td>Minas Gerais</td>
+                            <td class="num">21.168.791</td>
+                        </tr>
+
+                        <tr>
+                            <td>Bahia</td>
+                            <td class="num">14.873.064</td>
+                        </tr>
+
+                        <tr>
+                            <td>Paraná</td>
+                            <td class="num">8.602.865</td>
+                        </tr>
+                        
+                    </tbody>
+                    
+                    <tfoot>
+                        <tr>
+                            <th scope="row">Total</th>
+                            <td  class="num"><strong>0000</strong></td>
+                        </tr>
+                    </tfoot>
+                </table>
+                
+</body>
+</html>

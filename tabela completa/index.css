@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(33, 59, 112);
+    color: white;
+}
+h1{
+    text-align: center;
+}
+caption {
+    padding: 1em;
+}
+table {
+   margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+td,th {
+    border: 1px solid rgb(219, 214, 214);
+    padding: 1.5em;
+}
