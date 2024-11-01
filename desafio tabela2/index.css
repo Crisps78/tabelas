@@ -1,10 +1,14 @@
+tbody {
+    color: rgb(65, 67, 68);
+    background-color: rgba(165, 247, 247, 0.228);
+}
 table {
     border-collapse: collapse;
 }
 td,th{
-    border: 1px solid rebeccapurple;
+    border: 2px solid rgb(14, 36, 235);
     padding: .7em;
 }
-thead > th{
-    background-color: aqua;
+.col1{
+    background-color: bisque;
 }
