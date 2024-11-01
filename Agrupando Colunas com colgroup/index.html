@@ -3,19 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Tabela</title>
 </head>
 <body>
     <h1>Agrupando Colunas com colgroup</h1>
     <table>
-        <caption>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="2">
+            <!-- <col class="cidade"> -->
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
             <tr>
                 <th scope="col">Nome</th>
                 <th scope="col">Sexo</th>
                 <th scope="col">Idade</th>
-                <th scope="col">Prifissão</th>
+                <th scope="col">Profissão</th>
             </tr>
-        </caption>
+
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+
+            <tr>
+                <td>Eduardo</td>
+                <td>M</td>
+                <td>21</td>
+                <td>Design de Gamer</td>
+            </tr>
+
+            <tr>
+                <td>Lucas</td>
+                <td>M</td>
+                <td>30</td>
+                <td>Educador</td>
+            </tr>
+
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+
+       
     </table>
 </body>
 </html>
